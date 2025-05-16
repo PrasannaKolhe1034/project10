@@ -1,0 +1,39 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: blue;
+    color: rgb(255, 255, 255);
+}
+h1{
+    color: aqua;
+}
+a{
+    color: aqua;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}
+ul > li{
+    font-weight: bold;
+}
+h1 + p{
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 5px;
+}
+ul li:hover{
+    color: red;
+}
+p:not(:first-of-type){
+    text-decoration: underline;
+}
+ul li::before{
+    content:"🎨";
+}
+a::after{
+    content:"🖌️";
+}
+p::first-letter{
+    font-size: 34px;
+    color: red;
+}
